@@ -1,0 +1,390 @@
+<!-- Source: Build A Responsive Website With HTML & SCSS/SASS, Full SASS Project (Create Website With SASS) 2022
+             https://www.youtube.com/watch?v=ISiuEujcNwM
+             Video: 1:48:18
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology | Exciting tech for adventurous people</title>
+
+    <!-- Googel Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- My Styles CSS -->
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo-2.png">
+</head>
+<body class="home">
+    <div class="navigation">
+        <input type="checkbox" class="navigation-checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation-button">
+            <span class="navigation-button-icon">&nbsp;</span>
+        </label>
+        <div class="navigation-background">&nbsp;</div>
+
+        <!-- Navigation Items -->
+        <nav class="navigation-nav">
+            <ul class="navigation-nav-list">
+                <li class="navigation-nav-list-item">
+                    <a href="#" class="navigation-nav-list-item-link">
+                        <span>01</span>About Technology
+                    </a>
+                </li>
+                <li class="navigation-nav-list-item">
+                    <a href="#" class="navigation-nav-list-item-link">
+                        <span>01</span>Future Technology
+                    </a>
+                </li>
+                <li class="navigation-nav-list-item">
+                    <a href="#" class="navigation-nav-list-item-link">
+                        <span>01</span>Latest Technology
+                    </a>
+                </li>
+                <li class="navigation-nav-list-item">
+                    <a href="#" class="navigation-nav-list-item-link">
+                        <span>01</span>Blockchain Technology
+                    </a>
+                </li>
+                <li class="navigation-nav-list-item">
+                    <a href="#" class="navigation-nav-list-item-link">
+                        <span>01</span>See Future
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- HERO -->
+    <header class="header">
+        <div class="header-logo-box">
+            <img src="images/logo-1.png" alt="" class="header-logo-box-img">
+        </div>
+        <div class="header-text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Technology</span>
+                <span class="heading-primary-sub">is where life happens</span>
+            </h1>
+            <a href="#section-tours" class="btn btn-white btn-animated">Discover Technology</a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- ABOUT SECTION -->
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">Exciting technology for tech people</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">You are going to fall in love with technology.</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga quis doloremque neque odit hic blanditiis minus unde repudiandae voluptates, dolorum aliquam sapiente eaque ratione, voluptas quos inventore quam sit!</p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Live technology like you never have before.</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga quis doloremque neque odit hic blanditiis minus unde repudiandae voluptates, dolorum aliquam sapiente eaque ratione, voluptas quos inventore quam sit!</p>
+                    <a href="#" class="btn text">Learn mode &rarr;</a>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="images/img-3.jpg" alt="photo - 1" 
+                            srcset="images/img-3.jpg 300w, images/img-3.jpg 1000w" 
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 70vw"
+                            class="composition-photo composition-photo-p1">
+                        <img src="images/img-5.jpg" alt="photo - 1" 
+                            srcset="images/img-5.jpg 300w, images/img-5.jpg 1000w" 
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 70vw"
+                            class="composition-photo composition-photo-p2">
+                        <img src="images/img-4.jpg" alt="photo - 1" 
+                            srcset="images/img-4.jpg 300w, images/img-4.jpg 1000w" 
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 70vw"
+                            class="composition-photo composition-photo-p3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURE SECTION -->
+        <section class="section-features">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box-icon icon-basic-world"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Technology World</h3>
+                        <p class="feature-box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta aspernatur quia dolores laudantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box-icon icon-basic-compass"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Technology World</h3>
+                        <p class="feature-box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta aspernatur quia dolores laudantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box-icon icon-basic-map"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Technology World</h3>
+                        <p class="feature-box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta aspernatur quia dolores laudantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box-icon icon-basic-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Technology World</h3>
+                        <p class="feature-box-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta aspernatur quia dolores laudantium!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TOURS SECTION -->
+        <section class="section-tours" id="section-tours">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">Most Popular Technology</h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card-side card-side-front">
+                            <div class="card-picture card-picture-1">&nbsp;</div>
+                            <h4 class="card-heading">
+                                <span class="card-heading-span card-heading-span-1">The Future Technology</span>
+                            </h4>
+                            <div class="card-details">
+                                <ul>
+                                    <li>Blockchain</li>
+                                    <li>New Technology</li>
+                                    <li>Light of Tech</li>
+                                    <li>Note of Tech</li>
+                                    <li>Developer</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-side card-side-back card-side-back-1">
+                            <div class="card-cta">
+                                <div class="card-price-box">
+                                    <p class="card-price-only">Only</p>
+                                    <p class="card-price-value">$297</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white">Read Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card-side card-side-front">
+                            <div class="card-picture card-picture-2">&nbsp;</div>
+                            <h4 class="card-heading">
+                                <span class="card-heading-span card-heading-span-2">What to Expect</span>
+                            </h4>
+                            <div class="card-details">
+                                <ul>
+                                    <li>Modern Gadgets</li>
+                                    <li>Fast Business</li>
+                                    <li>Artificial Technology</li>
+                                    <li>AI Development</li>
+                                    <li>Case of Business</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-side card-side-back card-side-back-2">
+                            <div class="card-cta">
+                                <div class="card-price-box">
+                                    <p class="card-price-only">Only</p>
+                                    <p class="card-price-value">$497</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white">Read Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card-side card-side-front">
+                            <div class="card-picture card-picture-3">&nbsp;</div>
+                            <h4 class="card-heading">
+                                <span class="card-heading-span card-heading-span-3">Skill Development</span>
+                            </h4>
+                            <div class="card-details">
+                                <ul>
+                                    <li>Complete IT-Driven</li>
+                                    <li>NFT Services</li>
+                                    <li>Backing Technology</li>
+                                    <li>Better Talent</li>
+                                    <li>System Type</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-side card-side-back card-side-back-3">
+                            <div class="card-cta">
+                                <div class="card-price-box">
+                                    <p class="card-price-only">Only</p>
+                                    <p class="card-price-value">$897</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white">Read Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn-green">Discover all technology</a>
+            </div>
+        </section>
+
+        <!-- STORIES SECTION -->
+        <section class="section-stories">
+            <div class="bg-video">
+                <video src="images/video.mp4" autoplay muted loop class="bg-video-content">Your browser is not supported!</video>
+            </div>
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">We make people love technology</h2>
+            </div>
+            <div class="row">
+                <div class="story">
+                    <figure class="story-shape">
+                        <img src="images/img-3.jpg" alt="person 1" class="story-img">
+                        <figcaption class="story-caption">Jack Smith</figcaption>
+                    </figure>
+                    <div class="story-text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Technology changing the life of people</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, provident optio minima, autem eum possimus fugit, odit ad repellat nam a totam! Ut numquam reprehenderit quia unde ab saepe illo!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="story">
+                    <figure class="story-shape">
+                        <img src="images/img-4.jpg" alt="person 4" class="story-img">
+                        <figcaption class="story-caption">Hannah Smith</figcaption>
+                    </figure>
+                    <div class="story-text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Technology changing the life of people</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, provident optio minima, autem eum possimus fugit, odit ad repellat nam a totam! Ut numquam reprehenderit quia unde ab saepe illo!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn-text">Read all Stories &rarr;</a>
+            </div>
+        </section>
+
+        <!-- SECTION BOOK -->
+        <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book-form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">Start Booking now !</h2>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder="Full name" id="name" required>
+                                <label for="name" class="form-label">Full name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" placeholder="E-mail address" id="email" required>
+                                <label for="email" class="form-label">E-mail address</label>
+                            </div>
+                            <div class="form-group u-margin-bottom-medium">
+                                <div class="form-radio-group">
+                                    <input type="radio" class="form-radio-input" id="small" name="size">
+                                    <label for="small" class="form-radio-label">
+                                        <span class="form-radio-button"></span>Small group
+                                    </label>
+                                </div>
+                                <div class="form-radio-group">
+                                    <input type="radio" class="form-radio-input" id="large" name="size">
+                                    <label for="large" class="form-radio-label">
+                                        <span class="form-radio-button"></span>Large group
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-green">Next step &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-logo-box">
+            <picture class="footer-logo">
+                <source srcset="images/logo-1.png 1px, images/logo-1.png 2px" media="(max-width: 37.5rem)"/>
+                <img src="images/logo-1.png" srcset="images/logo-1.png 1px, images/logo-1.png 2px" alt="Full logo">
+            </picture>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer-navigation">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Company</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Contact</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Carreer</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Privacy policy</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer-copyright">
+                    Built by <a href="#" class="footer-link">Meltem Gerceker</a> for practice.
+                    <a href="#" class="footer-link">Feel free to add in your portfolio.</a>
+                    . Copyright &copy; by daulat hussain. You are allowed to use this website template for yourself.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div class="popup-left">
+                <img src="images/img-3.jpg" alt="tech photo" class="popup-img">
+                <img src="images/img-4.jpg" alt="tech photo" class="popup-img">
+            </div>
+            <div class="popup-right">
+                <a href="#section-tours" class="popup-close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Learn Technology</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &nabla; Please read these terms before booking.</h3>
+                <p class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam neque maxime vero facere est corrupti modi quos tempora deleniti culpa possimus ipsum laudantium iusto, dignissimos asperiores ex accusamus temporibus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere reiciendis repellat, atque commodi laborum repellendus eius dolore nostrum officiis? Maxime expedita quae quas incidunt, magni quaerat vel quos impedit!</p>
+                <a href="#" class="btn btn-green">Read Now</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
